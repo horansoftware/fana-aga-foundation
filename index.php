@@ -78,6 +78,21 @@
             font-weight: bold;
             text-transform: uppercase;
         }
+
+        /* For mobile devices */
+@media (max-width: 767px) {
+  #first-slide {
+    background-image: url(assets/img/slide/slide_mobile_1.jpg);
+  }
+}
+
+/* For desktop devices */
+@media (min-width: 768px) {
+  #first-slide {
+    background-image: url(assets/img/slide/slide_1.jpg);
+  }
+}
+
   </style>
 </head>
 
@@ -97,7 +112,7 @@
   <section id="hero" class="hero">
   
     <div id="hero-carousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
-      <div class="carousel-item active" style="background-image: url(assets/img/slide/slide_1.jpg)">
+      <div class="carousel-item first-slide active" id="first-slide" style="background-image: url(assets/img/slide/slide_1.jpg)">
           <div class="info d-flex align-items-center">
           <div class="container">
             <div class="row justify-content-center">
