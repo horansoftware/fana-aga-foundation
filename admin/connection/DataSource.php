@@ -3,7 +3,7 @@
 namespace Phppot;
 class DataSource
 {
-    const HOST = 'localhost';
+    const HOST = '10.180.50.214:3306';
 
     const USERNAME = 'root_user';
     const PASSWORD = 'Fanaag@2024#';

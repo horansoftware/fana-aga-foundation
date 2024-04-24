@@ -1,5 +1,5 @@
 <?php
-$db_host="localhost"; //localhost server 
+$db_host="10.180.50.214:3306"; //10.180.50.214:3306 server 
 $db_user="root_user";	//database username
 $db_password="Fanaag@2024#";	//database password 
 $db_name = "fanaagaf_db"; 
