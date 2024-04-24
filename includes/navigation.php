@@ -3,7 +3,7 @@
     <ul>
         <li><a href="index.php">Home</a></li>
         <li><a href="about.php">About</a></li>
-        <li class="dropdown"><a href="#"><span>News</span>  </a>
+        <li class="dropdown"><a href="news.php"><span>News</span>  </a>
    
         </li>
         <li class="dropdown"><a href="#"><span>Comapny</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
