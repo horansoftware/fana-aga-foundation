@@ -5,9 +5,9 @@ class DataSource
 {
     const HOST = 'localhost';
 
-    const USERNAME = 'root';
-    const PASSWORD = '';
-    const DATABASENAME = 'fana_aga';
+    const USERNAME = 'root_user';
+    const PASSWORD = 'Fanaag@2024#';
+    const DATABASENAME = 'fanaagaf_db';
 
     private $conn;
     function __construct()
